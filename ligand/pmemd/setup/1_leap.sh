@@ -15,9 +15,10 @@ basedir=leap
 
 $tleap -f - <<_EOF
 # load the AMBER force fields
-source leaprc.ff14SB
+source leaprc.protein.ff19SB
 source leaprc.gaff
 loadAmberParams frcmod.ionsjc_tip3p
+source leaprc.water.tip3p
 
 # load force field parameters for BNZ and PHN
 loadoff $basedir/benz.lib
