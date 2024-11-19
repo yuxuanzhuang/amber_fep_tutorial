@@ -1,0 +1,2 @@
+-O -i min0.in -p V0.parm7 -c V0.rst7 -ref V0.rst7 -inf min0.info -o min0.out -r min0.rst7 -e min0.en
+-O -i min1.in -p V1.parm7 -c V1.rst7 -ref V1.rst7 -inf min1.info -o min1.out -r min1.rst7 -e min1.en

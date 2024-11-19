@@ -1,0 +1,3 @@
+# Sander does not allow lambda=0 or lambda=1. The extrpolation scheme in
+# the analysis script implements two different extrapolation schemes.
+windows="0.005 $(seq 0.1 0.1 0.9) 0.995"

@@ -1,0 +1,2 @@
+-O -i min0.in -p ../ligands0.parm7 -c ../ligands0.rst7 -ref ../ligands0.rst7 -inf min0.info -o min0.out -r min0.rst7 -e min0.en -x min0.nc
+-O -i min1.in -p ../ligands1.parm7 -c ../ligands1.rst7 -ref ../ligands1.rst7 -inf min1.info -o min1.out -r min1.rst7 -e min1.en -x min1.nc

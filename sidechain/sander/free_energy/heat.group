@@ -1,0 +1,2 @@
+-O -i heat0.in -p V0.parm7 -c min0.rst7 -ref V0.rst7 -inf heat0.info -o heat0.out -r heat0.rst7 -e heat0.en -x heat0.nc
+-O -i heat1.in -p V1.parm7 -c min1.rst7 -ref V1.rst7 -inf heat1.info -o heat1.out -r heat1.rst7 -e heat1.en -x heat1.nc

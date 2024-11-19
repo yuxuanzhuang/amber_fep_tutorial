@@ -1,0 +1,2 @@
+-O -i press0.in -p ../complex0.parm7 -c heat0.rst7 -ref ../complex0.rst7 -inf press0.info -o press0.out -r press0.rst7 -e press0.en -x press0.nc
+-O -i press1.in -p ../complex1.parm7 -c heat1.rst7 -ref ../complex1.rst7 -inf press1.info -o press1.out -r press1.rst7 -e press1.en -x press1.nc

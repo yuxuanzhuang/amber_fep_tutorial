@@ -1,0 +1,22 @@
+pressurising
+ &cntrl
+   imin = 0, nstlim = 10000, irest = 1, ntx = 5, dt = 0.002,
+   ntt = 1, temp0 = 300.0, tautp = 1.0,
+   ntp = 1, pres0 = 1.0, taup = 2.0,
+   ntb = 2,
+   ntc = 2, ntf = 1,
+   ioutfm = 1, iwrap = 1,
+   ntwe = 1000, ntwx = 1000, ntpr = 500, ntwr = 5000,
+
+   ntr = 1, restraint_wt = 5.0,
+   restraintmask='!:WAT & !@H=',
+
+   icfe = 1, ifsc = 1, clambda = 0.5, scalpha = 0.5, scbeta = 12.0,
+   logdvdl = 0,
+   timask1 = ':BNZ', timask2 = ':PHN',
+   scmask1 = ':BNZ@H6', scmask2 = ':PHN@O1,H6'
+ /
+ &ewald
+ / 
+ &wt type = 'REST', istep1 = 0, istep2 = 10000,
+                    value1 = 5.0, value2 = 0.0 &end

@@ -1,0 +1,129 @@
+!!index array str
+ "MV"
+!entry.MV.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.415700
+ "H" "H" 0 1 131072 2 1 0.271900
+ "CA" "CX" 0 1 131072 3 6 -0.087500
+ "HA" "H1" 0 1 131072 4 1 0.096900
+ "CB" "3C" 0 1 131072 5 -1 0.298500
+ "HB" "HC" 0 1 131072 6 1 -0.029700
+ "CG1" "CT" 0 1 131072 7 6 -0.319200
+ "CG2" "CT" 0 1 131072 8 6 -0.319200
+ "C" "C" 0 1 131072 9 6 0.597300
+ "O" "O" 0 1 131072 10 8 -0.567900
+ "HG11" "HC" 0 1 131072 11 1 0.079100
+ "HG12" "HC" 0 1 131072 12 1 0.079100
+ "HG13" "HC" 0 1 131072 13 1 0.079100
+ "HG21" "HC" 0 1 131072 14 1 0.079100
+ "HG22" "HC" 0 1 131072 15 1 0.079100
+ "HG23" "HC" 0 1 131072 16 1 0.079100
+!entry.MV.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H" "H" 0 -1 0.0
+ "CA" "CX" 0 -1 0.0
+ "HA" "H1" 0 -1 0.0
+ "CB" "3C" 0 -1 0.0
+ "HB" "HC" 0 -1 0.0
+ "CG1" "CT" 0 -1 0.0
+ "CG2" "CT" 0 -1 0.0
+ "C" "C" 0 -1 0.0
+ "O" "O" 0 -1 0.0
+ "HG11" "HC" 0 -1 0.0
+ "HG12" "HC" 0 -1 0.0
+ "HG13" "HC" 0 -1 0.0
+ "HG21" "HC" 0 -1 0.0
+ "HG22" "HC" 0 -1 0.0
+ "HG23" "HC" 0 -1 0.0
+!entry.MV.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.MV.unit.childsequence single int
+ 2
+!entry.MV.unit.connect array int
+ 1
+ 9
+!entry.MV.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 3 4 1
+ 3 5 1
+ 3 9 1
+ 5 6 1
+ 5 7 1
+ 5 8 1
+ 7 11 1
+ 7 12 1
+ 7 13 1
+ 8 14 1
+ 8 15 1
+ 8 16 1
+ 9 10 1
+!entry.MV.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+!entry.MV.unit.name single str
+ "MV"
+!entry.MV.unit.positions table  dbl x  dbl y  dbl z
+ 15.176700 16.723000 17.688900
+ 15.072700 15.744000 17.914900
+ 16.168700 17.096000 16.727900
+ 16.836700 17.811000 17.207900
+ 16.995700 15.896000 16.252900
+ 16.341700 15.176000 15.761900
+ 17.756700 16.234000 15.549900
+ 17.476700 15.424000 17.108900
+ 15.564700 17.742000 15.515900
+ 16.166700 18.651000 14.946900
+ 18.411100 16.955000 16.040900
+ 18.344900 15.380400 15.212500
+ 17.275900 16.706400 14.693100
+ 16.716000 15.085600 17.812400
+ 18.064200 14.570800 16.771300
+ 18.130700 16.144400 17.601400
+!entry.MV.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 9 0 0 0 0
+!entry.MV.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "MV" 1 17 1 "p" 0
+!entry.MV.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.MV.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.MV.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
