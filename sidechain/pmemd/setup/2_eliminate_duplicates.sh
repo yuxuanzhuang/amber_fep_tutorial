@@ -1,8 +1,12 @@
 #!/bin/sh
 #
 #
-
-parmed="python $AMBERHOME/bin/parmed.py"
+# Install parmed as a Python package
+# from https://github.com/ParmEd/ParmEd
+# Error with ff19SB force field
+# Need to patched with for the tiMerge command
+# https://github.com/ParmEd/ParmEd/issues/1169#issuecomment-962680319
+parmed="parmed"
 
 
 $parmed protein.parm7 <<_EOF
